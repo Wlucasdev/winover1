@@ -1,0 +1,83 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+
+
+body{
+    
+    font-family: 'Archivo', sans-serif;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: bold;
+    background-image: url("/IMG/fundo.png");
+    background-size: cover;
+    color: black;
+    
+}
+
+#div1{
+    animation-name: anima_1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anima_1{
+    0%{
+        background-image: linear-gradient(0deg, #00a5bd,#ca7088,#741439,#210b2f); 
+    }
+    12.5%{
+        background-image: linear-gradient(45deg, #00a5bd,#ca7088,#741439,#210b2f);
+    }
+    25%{
+        background-image: linear-gradient(90deg,#00a5bd,#ca7088,#741439,#210b2f);
+    }
+    37.5%{
+        background-image: linear-gradient(135deg, #00a5bd,#ca7088,#741439,#210b2f);
+    }
+    50%{
+        background-image: linear-gradient(180deg,#00a5bd,#ca7088,#741439,#210b2f);
+    }
+    62.5%{
+        background-image: linear-gradient(225deg, #00a5bd,#ca7088,#741439,#210b2f);
+    }
+    75%{
+        background-image: linear-gradient(270deg,#00a5bd,#ca7088,#741439,#210b2f);
+    }
+    87.5%{
+        background-image: linear-gradient(315deg,#00a5bd,#ca7088,#741439,#210b2f);
+    }
+    100%{
+        background-image: linear-gradient(360deg, #00a5bd,#ca7088,#741439,#210b2f);
+    }}
+
+
+
+  
+
+label{
+    background: white; border: black solid 2px;}
+
+label:hover{
+    background: rgb(240, 240, 110);
+    transition: 1s;
+}
+
+.taxas{
+    display: flex;
+    width: auto; 
+    height:700px;
+}
+
+.taxa2{
+    height: 100%;
+    width: 50%;
+
+    
+}
+
+.a label{
+    margin-right: 40px;
+}
+.b input{
+    width:20px;
+}

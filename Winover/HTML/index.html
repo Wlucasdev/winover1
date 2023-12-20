@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/conf.css">
+    <link rel="import" href="/HTML/script.html">
+    <title>Document</title>
+
+    
+</head>
+<body style="margin: 0;">
+
+    <div style="background-image: url('https://media.licdn.com/dms/image/D4E16AQEDnXGNzRPKrg/profile-displaybackgroundimage-shrink_200_800/0/1678846655422?e=2147483647&v=beta&t=CZy6l7JYYdWT2Lbs90zsDY_VeftHwQ2IHdtBvG5jI6E');background-position: center;height: 200px; width: auto; text-align: center;background-size: auto;">
+    </div>
+    <br><br><br>
+    <div id="div1" class="anima" style="margin: 50px; border: 1px solid;height: 1000px;width: auto; background-image: linear-gradient(45deg, red,white,red);">
+        <div style="margin:20px;height:
+             960px;width: auto; background-image: linear-gradient(to bottom, #00a5bd,#ca7088,#741439,#210b2f) ;">
+            <form id="for" name="for">
+                <div>
+                    <label style=" border: black solid 2px;" for="nome_cliente">Nome do cliente</label><br><br>
+                    <input style="width: 1200px;" id="nome_cliente" type="text" placeholder="Digite o nome do cliente Aqui!">
+                </div>    
+                    <br><br><br>
+                <div style="width: auto;">
+                        <label style="margin-right:236px;" for="cartao">Número do cartão</label>
+                        <label style="margin-right:515px;" for="contrato">Contrato</label>
+                        <label for="cod">Código</label>
+                        <label style="margin-left:350px" for="cpf">CPF</label>              
+                </div>
+                    <br>
+                <input type="number" id="cartao" style="width: 300px;" >
+                <input type="number" id="contrato" style="width: 500px; margin-left: 100px;" >
+                <input type="number" id="cod" style="width: 300px; margin-left: 100px;">
+                <input type="number" id="cpf" style="width: 200px;margin-left:110px;" >
+                <br><br>
+                <div class="taxas">
+                    <div class="taxa2">
+                        <br><br>
+                        <div class="a">
+                            <label for="iof_residual">IOF Residual </label>
+                            <label for="iof_total">IOF total</label>
+                            <label for="cet1">CET A.M% </label>
+                            <label for="cet2">CET A.A% </label>
+                            <label for="juros1">Juros A.M% </label>
+                            <label for="juros2">Juros A.A% </label>
+                        </div>
+                        <div style="margin-top: 2px;">
+                        <input id="iof_residual" type="number" style="width: 70px;margin-right: 74px;">
+                        <input id="iof_total" type="number" style="width: 70px;margin-right: 45px;">
+                        <input id="cet1" type="number" style="width: 70px;margin-right: 43px;">
+                        <input id="cet2" type="number" style="width: 70px;margin-right: 42px;">
+                        <input id="juros1" type="number" style="width: 70px;margin-right: 67px;">
+                        <input id="juros2" type="number" style="width: 70px;">
+                        </div>
+
+                        <br><br><br><br>
+                        <div class="a">
+                            <label for="$iof_residual">IOF Residual R$ </label>
+                            <label for="$iof">IOF          R$ </label>
+                            <label for="$cet1">CET A.A R$ </label>
+                            <label for="$cet2">CET A.M R$ </label>
+                            <label for="$juros1">Juros A.A R$ </label>
+                            <label for="$juros2">Juros A.M R$ </label>
+                        </div>
+                        <div style="margin-top: 2px;">
+                        <input type="number" id="$iof_residual" name="" style="width: 70px;margin-right: 96px;">
+                        <input type="number" id="$iof"  name="" style="width: 70px;margin-right: 17px;">
+                        <input type="number" id="$cet1" name="" style="width: 70px;margin-right: 49px;">
+                        <input type="number" id="$cet2" name="" style="width: 70px;margin-right: 53px;">
+                        <input type="number"   id="$juros1" name="" style="width: 70px;margin-right: 72px;">
+                        <input type="number" id="$juros2" name="" style="width: 70px;">
+                        </div>
+                        <br><br><br><br><br>
+                        <div class="a">
+                            <label for="">Total R$ </label>
+                            <label for="">Valor Acordo R$ </label>
+                            <label for="">1° Pagamento </label>
+                            <label for="">Entrada</label>
+                            <label for="">Dia da Entrada</label>
+                        </div>
+                        <div style="margin-top: 2px;">
+                        <input type="number" style="width: 70px;margin-right: 35px;">
+                        <input type="number" style="width: 70px;margin-right: 120px;">
+                        <input type="date" style="width: 100px;margin-right: 55px;">
+                        <input type="number" style="width: 70px;margin-right: 45px;">
+                        <input type="date" style="width: 100px;">
+                        </div>
+                        <br><br><br><br>
+                        <div class="a" style="display:inline;">
+                            <label for="">Número de parcelas</label>
+                            <label for="">Número da conta</label>
+                        </div>
+                        <div style="margin-top: 2px;">
+                            <input type="number" style="width: 70px;margin-right: 152px;">
+                            <input type="number" style="width: 70px;">
+                        </div>
+                        <div style="margin-top: 80px;">
+                            <a href="/HTML/script.html" target="tela2">tetetete</a>
+                            
+                        </div>
+                    </div>
+            </form>            
+                    <div class="taxa2"style="border:solid black 1px; background-image: url('/IMG/fundo.png'); color:white; text-transform:none;background-size:cover;font-size:18px">
+                          <!--iframe name="tela2" style="width: 800px ;height: 700px"></iframe-->
+                          <main id="s">
+                            <h2>Prenchimento automatico:</h2>
+                        </main>
+                    </div>
+                    
+                </div>
+            <button id="b" onclick="add()">teste</button>
+        </div>
+    </div>
+    <script src="/JS/fun.js"></script>
+    
+</body>
+</html>
+
+<!--    iof A.M 
+        iof A.A
+        cet A.M
+        cet A.A
+        juros A.M
+        juros A.A
+        valor iof A.M
+        Valor iof A.A
+        valor cet A.M
+        valor cet A.A
+        Valor total
+        Valor do acordo
+
+        -- >
